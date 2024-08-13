@@ -4,3 +4,58 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    height: 100vh;
+    width: 100vw;
+    background: #0000008f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 500px;
+    height: 600px;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 0  10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+.container > h1{
+    text-align: center;
+}
+.input-group{
+    margin-bottom: 20px;
+}
+label{
+    font-size: 25px;
+    display: block;
+}
+input[type="number"]{
+    height: 45px;
+    width: 100%;
+    margin-top: 5px;
+}
+input[type="number"]::placeholder{
+    padding: 20px;
+    font-size: 1rem;
+}
+
+.btn{
+    padding: 15px 35px;
+    background: #1b0c0a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+#result{
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
